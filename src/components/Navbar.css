@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300&family=Poppins:wght@500&family=Spectral:wght@200&display=swap');
+.barsIcon{
+    display:none;
+}
+input{
+    display: none;
+}
+.navbar{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width:768px){
+    .navLinks{
+        display: block;
+        margin: 50px 0px;
+    }
+
+   
+    .navbar{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        left:-100%;
+        top: 60px;
+        display: block;
+        transition: all 0.3s ease;
+        
+
+    }
+    .frontIMG{
+    position: fixed;
+    display: block;
+    top: 4%;
+    left: 50%;
+    transform:translate(-50%,-50%);    
+    }
+    .jungle{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url('jungle.jpg');
+    width: 100%;
+    height: 60px;
+    }
+    .barsIcon{
+        display: block;
+        margin-left: 90%;
+        color: chartreuse;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: -1%;
+    }
+    .navbar-mobile{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        left:0%;
+        top: 60px;
+        display: block;
+        transition: all 0.3s ease;
+        z-index: 1;
+    }
+    .fas{
+        margin-top: 1.5rem;
+    }
+} 

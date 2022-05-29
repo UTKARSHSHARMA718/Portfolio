@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+padding:5px;
+background-color: rgb(28, 28, 28);
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: chartreuse;
+    /* animation: pulse 2s infinite; */
+}
+a:hover{
+    animation-name: color-change;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+     text-decoration: underline; 
+     color: aliceblue;
+    text-decoration-color: rgb(255, 255, 255); 
+}
+
+.frontIMG{
+    width: 120px;
+    height: 50px;
+    margin-right: 500px;
+}
+body{
+    background-color: rgb(16, 16, 16);
+    min-height: 100vh;
+}
+
+
+.socials{
+    align-items: center;
+    padding-right:20px ;
+}
+.me{
+    width: 700px;
+    height: 700px;
+  margin-left: 30%;
+}
+/*
+.intro{
+    justify-content: center;
+    align-items: center;
+  background-color: rgb(0,0,0); 
+
+background-image: url('./future.jpg');
+
+background-size: cover;
+height: 100vh;
+width:100%;
+background-repeat: no-repeat;
+}
+
+*/
+.containerNav{
+width: 100%px;
+}
+
+#introPageHeading{
+    margin-top: auto;
+    margin-bottom: auto;
+}
